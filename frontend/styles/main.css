@@ -2,6 +2,25 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+*.btn-edit {
+  background: #474747;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 16px 0px;
+  line-height: 18px;
+  font-weight: 500;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  height: 50px;
+  width: 140px;
+}
+
+*.btn-edit:hover {
+  background-color: #303030;
+  color: #ffffff;
+}
+
 .navbar-brand img {
   max-height: 50px;
 }

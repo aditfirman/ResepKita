@@ -4,6 +4,26 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+// edit
+*.btn-edit {
+    background: #474747;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 16px 0px;
+    line-height: 18px;
+    font-weight: 500;
+    // border: 2px solid #474747;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 50px;
+    width: 140px;
+
+    &:hover {
+        background-color: #303030;
+        color: #ffffff;
+    }
+}
+
 .navbar-brand {
     img {
         max-height: 50px;
@@ -160,21 +180,24 @@ header {
                 text-transform: capitalize;
                 font-size: 16px;
             }
+
             h3 {
                 font-weight: 300;
                 font-size: 16px;
             }
         }
     }
-    
+
 }
 
 // faq.html
 .faq {
     margin-bottom: 450px;
+
     .card-header {
         background-color: $primary;
-        button{
+
+        button {
             color: #ffffff;
         }
     }
@@ -185,16 +208,18 @@ header {
 // tulis-resep-baru
 .tulis-resep {
     margin-top: 120px;
+
     h1 {
         font-size: 32px;
         text-transform: capitalize;
         font-weight: 500;
     }
+
     form {
         label {
             font-weight: 500;
         }
     }
 
-    
+
 }
